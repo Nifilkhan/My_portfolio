@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
 import { FiArrowRight, FiDownload } from "react-icons/fi";
 import img from "../../assets/portfolio_img.jpeg";
-import pdf from "../../assets/nifil_fullstack.pdf"
+
 
 const HeroSection = () => {
   const constraintsRef = useRef(null);
@@ -120,7 +120,7 @@ const HeroSection = () => {
             >
               <div className="rounded-full overflow-hidden border-4 border-white dark:border-neutral-800 shadow-xl h-72 w-72 sm:h-80 sm:w-80">
                 <img
-                  src={img}
+                  src='/nifil_fullstack.pdf'
                   alt="John Doe"
                   className="w-full h-full object-cover"
                 />
