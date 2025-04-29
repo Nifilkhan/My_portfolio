@@ -91,7 +91,7 @@ const HeroSection = () => {
                 </motion.div>
               </Link>
               <a
-                href={pdf}
+                href='/nifil_fullstack.pdf'
                 download
                 className="btn-secondary"
               >
@@ -120,7 +120,7 @@ const HeroSection = () => {
             >
               <div className="rounded-full overflow-hidden border-4 border-white dark:border-neutral-800 shadow-xl h-72 w-72 sm:h-80 sm:w-80">
                 <img
-                  src='/nifil_fullstack.pdf'
+                  src={img}
                   alt="John Doe"
                   className="w-full h-full object-cover"
                 />
