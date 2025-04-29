@@ -118,7 +118,7 @@ const HeroSection = () => {
             >
               <div className="rounded-full overflow-hidden border-4 border-white dark:border-neutral-800 shadow-xl h-72 w-72 sm:h-80 sm:w-80">
                 <img
-                  src="assets/portfolio_img.jpeg"
+                  src="src/assets/portfolio_img.jpeg"
                   alt="John Doe"
                   className="w-full h-full object-cover"
                 />
